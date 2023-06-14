@@ -1,7 +1,22 @@
 .NavBar {
-    top: 0;
+    top: 1rem;
     left: 0;
     background-color: linear ;
-    display: block;
     justify-content: flex-start;
+    position: fixed;
+
+    ul a {
+        color : white;
+        text-decoration: none;
+        padding: 1rem;
+
+        &:hover {
+            color : yellow;
+        }
+
+    }
+
+    .currentTab {
+        color : yellow;
+    }
 }
