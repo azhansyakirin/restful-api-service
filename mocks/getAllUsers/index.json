@@ -1,0 +1,19 @@
+{
+    "users":[
+        {
+            "id":"1",
+            "name":"ahmad",
+            "matricId":"00144811"
+        },
+        {
+            "id":"2",
+            "name":"abu",
+            "matricId":"123456"
+        },
+        {
+            "id":"3",
+            "name":"afiqah",
+            "matricId":"987091"
+        }
+    ]
+}
