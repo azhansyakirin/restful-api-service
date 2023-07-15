@@ -11,6 +11,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      # Add your desired steps or commands here
+      - name: Display Runner Time
+        run: |
+          echo "Current Date: $(date +'%Y-%m-%d')"
+          echo "Current Time: $(date +'%H:%M:%S')"
+          echo "Time Zone: $(date +'%Z %z')"
+        
       - name: Example Step
         run: echo "This workflow runs every day at 11 PM"
