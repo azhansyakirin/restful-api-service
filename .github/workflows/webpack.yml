@@ -1,7 +1,8 @@
 name: NodeJS with Webpack
 
-schedule:
-    - cron: "30 21 * * *"
+on:
+  schedule:
+    - cron: "31 21 * * *"
 
 jobs:
   build-v1:
