@@ -26,6 +26,7 @@ jobs:
         echo "Hi i am azhan"
 
   build-v2:
+    needs: build-v1
     runs-on: ubuntu-latest
 
     strategy:
