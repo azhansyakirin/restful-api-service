@@ -1,8 +1,12 @@
 name: NodeJS with Webpack
 
 on:
-  schedule:
-    - cron: "36 13 * * *"
+  # schedule:
+  #   - cron: "36 13 * * *"
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   build-v1:
